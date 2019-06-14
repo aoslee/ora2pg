@@ -9,6 +9,8 @@ RUN apt update && apt install -y unzip rpm alien \
         libaio1 \
         # Install postgresql
         postgresql-client \
+        libdbd-pg-perl \
+        libpq-dev \     
         #install Perl Database Interface
         libdbi-perl \
         bzip2
